@@ -1,0 +1,46 @@
+/* default setting / root */
+:root {
+  font-size: 20px;
+  font-family: 'montserrat';
+}
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* hero style */
+.jumbotron {
+  background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0)), url(bg/pexels-pixabay-206359.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'roboto';
+  color: white;
+}
+
+.sosmed {
+  margin: 10px;
+}
+
+.sosmed a {
+  text-decoration: none;
+}
+/* img slider effect */
+.img-slider {
+  width: 70vw;
+  height: 50vmin;
+  position: relative;
+  left: 15vw;
+  top: 88px;
+  margin: auto;
+  animation: slider 5s infinite;
+  background-position: center;
+  background-size: cover;
+}
